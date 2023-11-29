@@ -2,7 +2,7 @@
 # Zero-Shot Semantic Segmentation on ADE20K using TensorFlow and GluonCV
 
 ## Introduction
-This project implements a zero-shot semantic segmentation model on the ADE20K dataset using TensorFlow and GluonCV. It aims to recognize and segment objects in images, even those categories not seen during training.
+This project implements a zero-shot semantic segmentation model on the ADE20K dataset using TensorFlow and GluonCV, 2 seperate implementations. It aims to recognize and segment objects in images, even those categories not seen during training.
 The aim is to implement and improve upon the **Uncertainty-Aware Learning for Zero-Shot Semantic Segmentation** paper
 
 ## Features
@@ -12,10 +12,22 @@ The aim is to implement and improve upon the **Uncertainty-Aware Learning for Ze
 - **Frameworks**: Utilization of GluonCV / MXNet.
 
 ## Getting Started
-### Prerequisites
+### Prerequisites for GluonCV implementation
 - Python 3.6.13
 - gluoncv 0.11.0
 - mxnet >= 1.6.0
+
+### Prerequisites for Tensorflow implementation
+- Python 3.6.13
+- gensim==3.4.0
+- openpyxl
+- tensorflow
+- matplotlib
+- numpy
+- pandas
+- pycocotools
+- pixellib
+  
 
 ### Installation
 Provide step-by-step instructions to set up the environment and install the necessary dependencies.
